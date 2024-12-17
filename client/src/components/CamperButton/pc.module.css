@@ -1,0 +1,175 @@
+@media (max-width: 360px) {
+
+    .card {
+
+        width: 350px;
+        height: 150px;
+        margin: 5px;
+    }
+
+    .carousel{
+        width: 170px;
+        height: 150px;
+        padding: 5px;
+    }
+    .img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .flexText {
+        width: 170px;
+        padding: 5px;
+    }
+    .line {
+        width: 1px;
+        background-color: black;
+        opacity: 0.2;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (min-width: 361px) and (max-width: 760px) {
+    .card {
+
+        width: 350px;
+        height: 150px;
+        margin: 5px;
+    }
+
+    .carousel{
+        width: 170px;
+        height: 150px;
+        padding: 5px;
+    }
+    .img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .flexText {
+        width: 170px;
+        padding: 5px;
+    }
+    .line {
+        width: 1px;
+        background-color: black;
+        opacity: 0.2;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
+
+}
+
+@media (min-width: 761px) and (max-width: 1140px) {
+    .card {
+
+        width: 350px;
+        height: 150px;
+        margin: 5px;
+    }
+
+    .carousel{
+        width: 170px;
+        height: 150px;
+        padding: 5px;
+    }
+    .img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .flexText {
+        width: 170px;
+        padding: 5px;
+    }
+    .line {
+        width: 1px;
+        background-color: black;
+        opacity: 0.2;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    
+}
+
+@media (min-width: 1141px) {
+
+        .card {
+
+        width: 350px;
+        height: 150px;
+        margin: 5px;
+    }
+
+    .carousel{
+        width: 170px;
+        height: 150px;
+        padding: 5px;
+    }
+    .img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .flexText {
+        width: 170px;
+        padding: 5px;
+    }
+    
+    
+    .line {
+        width: 1px;
+        background-color: black;
+        opacity: 0.2;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+}
+
+.flexCard {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.flexText {
+    /* justify-content: center; */
+    padding-top: 20px;
+}
+.flexPrice {
+    justify-content: center;
+}
+
+.card {
+    width: 400px;
+    height: 107px;
+}
+
+.img {
+    width: 180px;
+    height: 107px;
+}
+.carousel {
+    width: 200px;
+    height: 100px;
+}
+.title{
+    /* display: flex; */
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+    width: 230px;
+    font-weight: 800;
+
+}

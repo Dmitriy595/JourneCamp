@@ -1,2 +1,1 @@
-# JourneCamp
-travel website
+# JourneyCamp

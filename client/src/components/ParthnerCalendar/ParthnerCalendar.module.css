@@ -1,0 +1,76 @@
+.flex {
+    display: flex;
+}
+
+.left {
+  flex-direction: column;
+  display: flex;
+  /* margin-right: 25px; */
+  margin-top: 20px;
+  align-items: center;
+}
+
+.leftCards {
+  width: 450px;
+}
+.campCards {
+  /* background-color: orange; */
+  width: 420px;
+  margin-bottom: 10px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  min-width: 600px;
+  max-width: 900px;
+  background-color: white;
+  border-radius: 15px;
+  min-height: 300px;
+  margin-top: 55px;
+  /* margin-left: 0px; */
+}
+.campName {
+  display: flex;
+  font-size: large;
+  justify-content: center;
+  font-weight: 700;
+  color: rgb(4, 4, 4);
+}
+.bronya{
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: rgb(109, 109, 111);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  /* padding: 10px; */
+  /* margin-left: 0px; */
+  /* background-color: #f9f9f9; */
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  height: 260px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  justify-content: space-around;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-button {
+  margin-top: 20px;
+}
